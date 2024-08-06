@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incubyte Test</title>
+    <script src="test.js"></script>
+    <style>
+        .red{
+            color: #ff0000;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div>
+        <h3>Please Try following test in Devloper Tool</h3>
+        <h5>If you are using new version of chrome, it may not let you paste code. simply type > allow pasting and press enter. You should good to go.</h5>
+        <br>
+        <div>console.log(StringCalculator.add("")); <b>// Output: 0</b></div>
+        <div>console.log(StringCalculator.add("1")); <b>// Output: 1</b></div>
+        <div>console.log(StringCalculator.add("1,5")); <b>// Output: 6</b></div>
+        <div>console.log(StringCalculator.add("1\n2,3")); <b>// Output: 6</b></div>
+        <div>console.log(StringCalculator.add("//;\n1;2")); <b>// Output: 3</b></div>
+        <div class="red">console.log(StringCalculator.add("1,-2,3")); // Throws Error: Negative numbers not allowed: -2</div>
+
+
+    </div>
+</body>
+
+</html>
